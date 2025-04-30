@@ -1,0 +1,26 @@
+# ninja log v6
+2524	3359	7677179311436596	cursach.exe	72e3bb743aa9aa10
+202	2524	7677179288206585	CMakeFiles/cursach.dir/mainwindow.cpp.obj	4d67683528ac2c33
+645	3540	7677212467394591	CMakeFiles/cursach.dir/leaderboard.cpp.obj	33974335eff821f6
+739	3684	7670214051989222	CMakeFiles/cursach.dir/leaderwindow.cpp.obj	ea3efdb85f3da6b1
+638	3431	7677212467334548	CMakeFiles/cursach.dir/main.cpp.obj	ce4c04554485fc74
+30	581	7677216959866501	D:/QtProjects/cursach/build/Desktop_Qt_shared_MinGW_w64_MINGW64_MSYS2-Debug/cursach_autogen/mocs_compilation.cpp	528b218c55998a7f
+30	581	7677216959866501	D:/QtProjects/cursach/build/Desktop_Qt_shared_MinGW_w64_MINGW64_MSYS2-Debug/cursach_autogen/timestamp	528b218c55998a7f
+635	3527	7677212467304588	CMakeFiles/cursach.dir/cursach_autogen/mocs_compilation.cpp.obj	c3da9506ece1e652
+30	581	7677216959866501	cursach_autogen/mocs_compilation.cpp	528b218c55998a7f
+30	581	7677216959866501	cursach_autogen/timestamp	528b218c55998a7f
+592	3189	7677216960516518	CMakeFiles/cursach.dir/anotherwindow.cpp.obj	37e822f2a7773d36
+22	3029	7677220886920686	cursach_autogen/timestamp	528b218c55998a7f
+22	3029	7677220886920686	cursach_autogen/mocs_compilation.cpp	528b218c55998a7f
+22	3029	7677220886920686	D:/QtProjects/cursach/build/Desktop_Qt_shared_MinGW_w64_MINGW64_MSYS2-Debug/cursach_autogen/timestamp	528b218c55998a7f
+22	3029	7677220886920686	D:/QtProjects/cursach/build/Desktop_Qt_shared_MinGW_w64_MINGW64_MSYS2-Debug/cursach_autogen/mocs_compilation.cpp	528b218c55998a7f
+3063	7316	7677220889196059	CMakeFiles/cursach.dir/main.cpp.obj	ce4c04554485fc74
+3029	7427	7677220888862611	CMakeFiles/cursach.dir/cursach_autogen/mocs_compilation.cpp.obj	c3da9506ece1e652
+3090	7439	7677220889466297	CMakeFiles/cursach.dir/leaderboardwindow.cpp.obj	9eb6c9d7bfcbf640
+29	190	7677221013023912	cursach_autogen/timestamp	528b218c55998a7f
+29	190	7677221013023912	cursach_autogen/mocs_compilation.cpp	528b218c55998a7f
+29	190	7677221013023912	D:/QtProjects/cursach/build/Desktop_Qt_shared_MinGW_w64_MINGW64_MSYS2-Debug/cursach_autogen/timestamp	528b218c55998a7f
+29	190	7677221013023912	D:/QtProjects/cursach/build/Desktop_Qt_shared_MinGW_w64_MINGW64_MSYS2-Debug/cursach_autogen/mocs_compilation.cpp	528b218c55998a7f
+193	2459	7677221014664515	CMakeFiles/cursach.dir/leaderboardwindow.cpp.obj	9eb6c9d7bfcbf640
+190	2586	7677221014634491	CMakeFiles/cursach.dir/mainwindow.cpp.obj	4d67683528ac2c33
+2586	3730	7677221038593727	cursach.exe	1b094d542dd9f0a
