@@ -1,5 +1,7 @@
 D:/QtProjects/cursach/build/Desktop_Qt_shared_MinGW_w64_MINGW64_MSYS2-Debug/cursach_autogen/EWIEGA46WW/moc_mainwindow.cpp: D:/QtProjects/cursach/mainwindow.h \
   D:/QtProjects/cursach/build/Desktop_Qt_shared_MinGW_w64_MINGW64_MSYS2-Debug/cursach_autogen/moc_predefs.h \
+  D:/QtProjects/cursach/gamewindow.h \
+  D:/QtProjects/cursach/intricacyselectionwindow.h \
   D:/QtProjects/cursach/leaderboardwindow.h \
   D:/QtProjects/cursach/taskselectionwindow.h \
   D:/msys64/mingw64/include/_mingw.h \
@@ -127,6 +129,7 @@ D:/QtProjects/cursach/build/Desktop_Qt_shared_MinGW_w64_MINGW64_MSYS2-Debug/curs
   D:/msys64/mingw64/include/c++/14.2.0/ext/numeric_traits.h \
   D:/msys64/mingw64/include/c++/14.2.0/ext/string_conversions.h \
   D:/msys64/mingw64/include/c++/14.2.0/ext/type_traits.h \
+  D:/msys64/mingw64/include/c++/14.2.0/filesystem \
   D:/msys64/mingw64/include/c++/14.2.0/functional \
   D:/msys64/mingw64/include/c++/14.2.0/initializer_list \
   D:/msys64/mingw64/include/c++/14.2.0/iosfwd \
@@ -191,6 +194,7 @@ D:/QtProjects/cursach/build/Desktop_Qt_shared_MinGW_w64_MINGW64_MSYS2-Debug/curs
   D:/msys64/mingw64/include/pthread_signal.h \
   D:/msys64/mingw64/include/pthread_time.h \
   D:/msys64/mingw64/include/pthread_unistd.h \
+  D:/msys64/mingw64/include/qt6/QtCore/QFile \
   D:/msys64/mingw64/include/qt6/QtCore/QList \
   D:/msys64/mingw64/include/qt6/QtCore/QObject \
   D:/msys64/mingw64/include/qt6/QtCore/QRect \
@@ -238,6 +242,8 @@ D:/QtProjects/cursach/build/Desktop_Qt_shared_MinGW_w64_MINGW64_MSYS2-Debug/curs
   D:/msys64/mingw64/include/qt6/QtCore/qendian.h \
   D:/msys64/mingw64/include/qt6/QtCore/qeventloop.h \
   D:/msys64/mingw64/include/qt6/QtCore/qexceptionhandling.h \
+  D:/msys64/mingw64/include/qt6/QtCore/qfile.h \
+  D:/msys64/mingw64/include/qt6/QtCore/qfiledevice.h \
   D:/msys64/mingw64/include/qt6/QtCore/qflags.h \
   D:/msys64/mingw64/include/qt6/QtCore/qfloat16.h \
   D:/msys64/mingw64/include/qt6/QtCore/qforeach.h \

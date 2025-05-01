@@ -28,6 +28,9 @@ if(${QT_VERSION_MAJOR} GREATER_EQUAL 6)
         leaderboardwindow.h leaderboardwindow.cpp leaderboardwindow.ui
         taskselectionwindow.h taskselectionwindow.cpp taskselectionwindow.ui
 
+        intricacyselectionwindow.h intricacyselectionwindow.cpp intricacyselectionwindow.ui
+        gamewindow.h gamewindow.cpp gamewindow.ui
+
 
 
 

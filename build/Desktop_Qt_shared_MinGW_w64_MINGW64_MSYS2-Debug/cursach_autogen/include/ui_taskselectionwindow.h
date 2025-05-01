@@ -14,6 +14,7 @@
 #include <QtWidgets/QLabel>
 #include <QtWidgets/QMainWindow>
 #include <QtWidgets/QMenuBar>
+#include <QtWidgets/QPushButton>
 #include <QtWidgets/QStatusBar>
 #include <QtWidgets/QWidget>
 
@@ -24,6 +25,7 @@ class Ui_taskselectionwindow
 public:
     QWidget *centralwidget;
     QLabel *label;
+    QPushButton *pushButton;
     QMenuBar *menubar;
     QStatusBar *statusbar;
 
@@ -41,6 +43,12 @@ public:
         font.setPointSize(24);
         label->setFont(font);
         label->setAlignment(Qt::AlignCenter);
+        pushButton = new QPushButton(centralwidget);
+        pushButton->setObjectName("pushButton");
+        pushButton->setGeometry(QRect(80, 110, 171, 31));
+        QFont font1;
+        font1.setPointSize(10);
+        pushButton->setFont(font1);
         taskselectionwindow->setCentralWidget(centralwidget);
         menubar = new QMenuBar(taskselectionwindow);
         menubar->setObjectName("menubar");
@@ -59,6 +67,7 @@ public:
     {
         taskselectionwindow->setWindowTitle(QCoreApplication::translate("taskselectionwindow", "MainWindow", nullptr));
         label->setText(QCoreApplication::translate("taskselectionwindow", "\320\222\321\213\320\261\320\265\321\200\320\270\321\202\320\265 \320\267\320\260\320\264\320\260\321\207\321\203", nullptr));
+        pushButton->setText(QCoreApplication::translate("taskselectionwindow", "\320\232\320\262\320\260\320\264\321\200\320\260\321\202\320\275\321\213\320\265 \321\203\321\200\320\260\320\262\320\275\320\265\320\275\320\270\321\217", nullptr));
     } // retranslateUi
 
 };

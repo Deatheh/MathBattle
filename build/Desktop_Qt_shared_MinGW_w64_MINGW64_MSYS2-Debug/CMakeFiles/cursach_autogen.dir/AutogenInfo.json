@@ -300,6 +300,18 @@
 	"HEADERS" : 
 	[
 		[
+			"D:/QtProjects/cursach/gamewindow.h",
+			"MU",
+			"EWIEGA46WW/moc_gamewindow.cpp",
+			null
+		],
+		[
+			"D:/QtProjects/cursach/intricacyselectionwindow.h",
+			"MU",
+			"EWIEGA46WW/moc_intricacyselectionwindow.cpp",
+			null
+		],
+		[
 			"D:/QtProjects/cursach/leaderboardwindow.h",
 			"MU",
 			"EWIEGA46WW/moc_leaderboardwindow.cpp",
@@ -391,6 +403,8 @@
 	"SETTINGS_FILE" : "D:/QtProjects/cursach/build/Desktop_Qt_shared_MinGW_w64_MINGW64_MSYS2-Debug/CMakeFiles/cursach_autogen.dir/AutogenUsed.txt",
 	"SOURCES" : 
 	[
+		[ "D:/QtProjects/cursach/gamewindow.cpp", "MU", null ],
+		[ "D:/QtProjects/cursach/intricacyselectionwindow.cpp", "MU", null ],
 		[ "D:/QtProjects/cursach/leaderboardwindow.cpp", "MU", null ],
 		[ "D:/QtProjects/cursach/main.cpp", "MU", null ],
 		[ "D:/QtProjects/cursach/mainwindow.cpp", "MU", null ],

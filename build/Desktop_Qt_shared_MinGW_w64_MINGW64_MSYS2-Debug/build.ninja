@@ -94,6 +94,24 @@ build CMakeFiles/cursach.dir/taskselectionwindow.cpp.obj: CXX_COMPILER__cursach_
   OBJECT_DIR = CMakeFiles\cursach.dir
   OBJECT_FILE_DIR = CMakeFiles\cursach.dir
 
+build CMakeFiles/cursach.dir/intricacyselectionwindow.cpp.obj: CXX_COMPILER__cursach_unscanned_Debug D$:/QtProjects/cursach/intricacyselectionwindow.cpp || cmake_object_order_depends_target_cursach
+  CONFIG = Debug
+  DEFINES = -DMINGW_HAS_SECURE_API=1 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NEEDS_QMAIN -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -DWINVER=0x0A00 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN32_WINNT=0x0A00 -D_WIN64
+  DEP_FILE = CMakeFiles\cursach.dir\intricacyselectionwindow.cpp.obj.d
+  FLAGS = -g -std=gnu++17 -fdiagnostics-color=always
+  INCLUDES = -ID:/QtProjects/cursach/build/Desktop_Qt_shared_MinGW_w64_MINGW64_MSYS2-Debug/cursach_autogen/include -isystem D:/msys64/mingw64/include/qt6/QtCore -isystem D:/msys64/mingw64/include/qt6 -isystem D:/msys64/mingw64/share/qt6/mkspecs/win32-g++ -isystem D:/msys64/mingw64/include/qt6/QtWidgets -isystem D:/msys64/mingw64/include/qt6/QtGui
+  OBJECT_DIR = CMakeFiles\cursach.dir
+  OBJECT_FILE_DIR = CMakeFiles\cursach.dir
+
+build CMakeFiles/cursach.dir/gamewindow.cpp.obj: CXX_COMPILER__cursach_unscanned_Debug D$:/QtProjects/cursach/gamewindow.cpp || cmake_object_order_depends_target_cursach
+  CONFIG = Debug
+  DEFINES = -DMINGW_HAS_SECURE_API=1 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NEEDS_QMAIN -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -DWINVER=0x0A00 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN32_WINNT=0x0A00 -D_WIN64
+  DEP_FILE = CMakeFiles\cursach.dir\gamewindow.cpp.obj.d
+  FLAGS = -g -std=gnu++17 -fdiagnostics-color=always
+  INCLUDES = -ID:/QtProjects/cursach/build/Desktop_Qt_shared_MinGW_w64_MINGW64_MSYS2-Debug/cursach_autogen/include -isystem D:/msys64/mingw64/include/qt6/QtCore -isystem D:/msys64/mingw64/include/qt6 -isystem D:/msys64/mingw64/share/qt6/mkspecs/win32-g++ -isystem D:/msys64/mingw64/include/qt6/QtWidgets -isystem D:/msys64/mingw64/include/qt6/QtGui
+  OBJECT_DIR = CMakeFiles\cursach.dir
+  OBJECT_FILE_DIR = CMakeFiles\cursach.dir
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target cursach
@@ -102,7 +120,7 @@ build CMakeFiles/cursach.dir/taskselectionwindow.cpp.obj: CXX_COMPILER__cursach_
 #############################################
 # Link the executable cursach.exe
 
-build cursach.exe: CXX_EXECUTABLE_LINKER__cursach_Debug CMakeFiles/cursach.dir/cursach_autogen/mocs_compilation.cpp.obj CMakeFiles/cursach.dir/main.cpp.obj CMakeFiles/cursach.dir/mainwindow.cpp.obj CMakeFiles/cursach.dir/leaderboardwindow.cpp.obj CMakeFiles/cursach.dir/taskselectionwindow.cpp.obj | D$:/msys64/mingw64/lib/libQt6Widgets.dll.a D$:/msys64/mingw64/lib/libQt6Gui.dll.a D$:/msys64/mingw64/lib/libQt6Core.dll.a D$:/msys64/mingw64/lib/libQt6EntryPoint.a || cursach_autogen cursach_autogen_timestamp_deps
+build cursach.exe: CXX_EXECUTABLE_LINKER__cursach_Debug CMakeFiles/cursach.dir/cursach_autogen/mocs_compilation.cpp.obj CMakeFiles/cursach.dir/main.cpp.obj CMakeFiles/cursach.dir/mainwindow.cpp.obj CMakeFiles/cursach.dir/leaderboardwindow.cpp.obj CMakeFiles/cursach.dir/taskselectionwindow.cpp.obj CMakeFiles/cursach.dir/intricacyselectionwindow.cpp.obj CMakeFiles/cursach.dir/gamewindow.cpp.obj | D$:/msys64/mingw64/lib/libQt6Widgets.dll.a D$:/msys64/mingw64/lib/libQt6Gui.dll.a D$:/msys64/mingw64/lib/libQt6Core.dll.a D$:/msys64/mingw64/lib/libQt6EntryPoint.a || cursach_autogen cursach_autogen_timestamp_deps
   CONFIG = Debug
   FLAGS = -g
   LINK_FLAGS = -mwindows
@@ -189,7 +207,7 @@ build cursach_autogen_timestamp_deps: phony
 #############################################
 # Utility command for cursach_autogen
 
-build cursach_autogen: phony CMakeFiles/cursach_autogen cursach_autogen/include/ui_mainwindow.h cursach_autogen/include/ui_leaderboardwindow.h cursach_autogen/include/ui_taskselectionwindow.h cursach_autogen/timestamp cursach_autogen/mocs_compilation.cpp cursach_autogen_timestamp_deps
+build cursach_autogen: phony CMakeFiles/cursach_autogen cursach_autogen/include/ui_mainwindow.h cursach_autogen/include/ui_leaderboardwindow.h cursach_autogen/include/ui_taskselectionwindow.h cursach_autogen/include/ui_intricacyselectionwindow.h cursach_autogen/include/ui_gamewindow.h cursach_autogen/timestamp cursach_autogen/mocs_compilation.cpp cursach_autogen_timestamp_deps
 
 
 #############################################
@@ -206,7 +224,7 @@ build cursach_autogen/timestamp cursach_autogen/mocs_compilation.cpp | ${cmake_n
 #############################################
 # Phony custom command for CMakeFiles\cursach_autogen
 
-build CMakeFiles/cursach_autogen cursach_autogen/include/ui_mainwindow.h cursach_autogen/include/ui_leaderboardwindow.h cursach_autogen/include/ui_taskselectionwindow.h | ${cmake_ninja_workdir}CMakeFiles/cursach_autogen ${cmake_ninja_workdir}cursach_autogen/include/ui_mainwindow.h ${cmake_ninja_workdir}cursach_autogen/include/ui_leaderboardwindow.h ${cmake_ninja_workdir}cursach_autogen/include/ui_taskselectionwindow.h: phony cursach_autogen/timestamp || cursach_autogen_timestamp_deps
+build CMakeFiles/cursach_autogen cursach_autogen/include/ui_mainwindow.h cursach_autogen/include/ui_leaderboardwindow.h cursach_autogen/include/ui_taskselectionwindow.h cursach_autogen/include/ui_intricacyselectionwindow.h cursach_autogen/include/ui_gamewindow.h | ${cmake_ninja_workdir}CMakeFiles/cursach_autogen ${cmake_ninja_workdir}cursach_autogen/include/ui_mainwindow.h ${cmake_ninja_workdir}cursach_autogen/include/ui_leaderboardwindow.h ${cmake_ninja_workdir}cursach_autogen/include/ui_taskselectionwindow.h ${cmake_ninja_workdir}cursach_autogen/include/ui_intricacyselectionwindow.h ${cmake_ninja_workdir}cursach_autogen/include/ui_gamewindow.h: phony cursach_autogen/timestamp || cursach_autogen_timestamp_deps
 
 # =============================================================================
 # Target aliases.

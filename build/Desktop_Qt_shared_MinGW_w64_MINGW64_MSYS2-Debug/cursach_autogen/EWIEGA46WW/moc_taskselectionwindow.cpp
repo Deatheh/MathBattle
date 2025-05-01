@@ -39,7 +39,8 @@ struct qt_meta_tag_ZN19taskselectionwindowE_t {};
 static constexpr auto qt_meta_stringdata_ZN19taskselectionwindowE = QtMocHelpers::stringData(
     "taskselectionwindow",
     "firstWindow",
-    ""
+    "",
+    "on_pushButton_clicked"
 );
 #else  // !QT_MOC_HAS_STRINGDATA
 #error "qtmochelpers.h not found or too old."
@@ -51,7 +52,7 @@ Q_CONSTINIT static const uint qt_meta_data_ZN19taskselectionwindowE[] = {
       12,       // revision
        0,       // classname
        0,    0, // classinfo
-       1,   14, // methods
+       2,   14, // methods
        0,    0, // properties
        0,    0, // enums/sets
        0,    0, // constructors
@@ -59,9 +60,15 @@ Q_CONSTINIT static const uint qt_meta_data_ZN19taskselectionwindowE[] = {
        1,       // signalCount
 
  // signals: name, argc, parameters, tag, flags, initial metatype offsets
-       1,    0,   20,    2, 0x06,    1 /* Public */,
+       1,    0,   26,    2, 0x06,    1 /* Public */,
+
+ // slots: name, argc, parameters, tag, flags, initial metatype offsets
+       3,    0,   27,    2, 0x08,    2 /* Private */,
 
  // signals: parameters
+    QMetaType::Void,
+
+ // slots: parameters
     QMetaType::Void,
 
        0        // eod
@@ -77,6 +84,8 @@ Q_CONSTINIT const QMetaObject taskselectionwindow::staticMetaObject = { {
         // Q_OBJECT / Q_GADGET
         QtPrivate::TypeAndForceComplete<taskselectionwindow, std::true_type>,
         // method 'firstWindow'
+        QtPrivate::TypeAndForceComplete<void, std::false_type>,
+        // method 'on_pushButton_clicked'
         QtPrivate::TypeAndForceComplete<void, std::false_type>
     >,
     nullptr
@@ -88,6 +97,7 @@ void taskselectionwindow::qt_static_metacall(QObject *_o, QMetaObject::Call _c, 
     if (_c == QMetaObject::InvokeMetaMethod) {
         switch (_id) {
         case 0: _t->firstWindow(); break;
+        case 1: _t->on_pushButton_clicked(); break;
         default: ;
         }
     }
@@ -122,14 +132,14 @@ int taskselectionwindow::qt_metacall(QMetaObject::Call _c, int _id, void **_a)
     if (_id < 0)
         return _id;
     if (_c == QMetaObject::InvokeMetaMethod) {
-        if (_id < 1)
+        if (_id < 2)
             qt_static_metacall(this, _c, _id, _a);
-        _id -= 1;
+        _id -= 2;
     }
     if (_c == QMetaObject::RegisterMethodArgumentMetaType) {
-        if (_id < 1)
+        if (_id < 2)
             *reinterpret_cast<QMetaType *>(_a[0]) = QMetaType();
-        _id -= 1;
+        _id -= 2;
     }
     return _id;
 }

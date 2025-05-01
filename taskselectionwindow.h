@@ -4,6 +4,8 @@
 #include <QMainWindow>
 #include <QKeyEvent>
 #include <Qt>
+#include <QFile>
+#include "intricacyselectionwindow.h"
 
 namespace Ui {
 class taskselectionwindow;
@@ -22,9 +24,13 @@ public:
 
 private:
     Ui::taskselectionwindow *ui;
+    intricacyselectionwindow* isWindow;
 
 protected:
-    virtual void  keyPressEvent(QKeyEvent *event);
+    virtual void keyPressEvent(QKeyEvent *event);
+    void nextWindow();
+private slots:
+    void on_pushButton_clicked();
 };
 
 #endif // TASKSELECTIONWINDOW_H
