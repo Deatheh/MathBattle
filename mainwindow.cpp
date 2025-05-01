@@ -9,6 +9,8 @@ MainWindow::MainWindow(QWidget *parent)
     ui->setupUi(this);
     lbWindow= new leaderboardwindow;
     connect(lbWindow, &leaderboardwindow::firstWindow, this, &MainWindow::show);
+    tsWindow = new taskselectionwindow;
+    connect(tsWindow, &taskselectionwindow::firstWindow, this, &MainWindow::show);
 }
 
 MainWindow::~MainWindow()
@@ -21,3 +23,10 @@ void MainWindow::on_pushButton_clicked()
     lbWindow->show();
     this->close();
 }
+
+void MainWindow::on_pushButton_2_clicked()
+{
+    tsWindow->show();
+    this->close();
+}
+

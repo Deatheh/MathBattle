@@ -36,7 +36,11 @@ public:
         centralwidget->setObjectName("centralwidget");
         label = new QLabel(centralwidget);
         label->setObjectName("label");
-        label->setGeometry(QRect(390, 60, 37, 12));
+        label->setGeometry(QRect(240, 40, 311, 41));
+        QFont font;
+        font.setPointSize(24);
+        label->setFont(font);
+        label->setAlignment(Qt::AlignCenter);
         leaderboardwindow->setCentralWidget(centralwidget);
         menubar = new QMenuBar(leaderboardwindow);
         menubar->setObjectName("menubar");
@@ -54,7 +58,7 @@ public:
     void retranslateUi(QMainWindow *leaderboardwindow)
     {
         leaderboardwindow->setWindowTitle(QCoreApplication::translate("leaderboardwindow", "MainWindow", nullptr));
-        label->setText(QCoreApplication::translate("leaderboardwindow", "Ququ", nullptr));
+        label->setText(QCoreApplication::translate("leaderboardwindow", "\320\242\320\260\320\261\320\273\320\270\321\206\320\260 \320\273\320\270\320\264\320\265\321\200\320\276\320\262", nullptr));
     } // retranslateUi
 
 };

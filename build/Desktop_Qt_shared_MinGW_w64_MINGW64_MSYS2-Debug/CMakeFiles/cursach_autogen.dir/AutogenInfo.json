@@ -310,6 +310,12 @@
 			"MU",
 			"EWIEGA46WW/moc_mainwindow.cpp",
 			null
+		],
+		[
+			"D:/QtProjects/cursach/taskselectionwindow.h",
+			"MU",
+			"EWIEGA46WW/moc_taskselectionwindow.cpp",
+			null
 		]
 	],
 	"HEADER_EXTENSIONS" : [ "h", "hh", "h++", "hm", "hpp", "hxx", "in", "txx" ],
@@ -387,7 +393,8 @@
 	[
 		[ "D:/QtProjects/cursach/leaderboardwindow.cpp", "MU", null ],
 		[ "D:/QtProjects/cursach/main.cpp", "MU", null ],
-		[ "D:/QtProjects/cursach/mainwindow.cpp", "MU", null ]
+		[ "D:/QtProjects/cursach/mainwindow.cpp", "MU", null ],
+		[ "D:/QtProjects/cursach/taskselectionwindow.cpp", "MU", null ]
 	],
 	"UIC_OPTIONS" : [],
 	"UIC_SEARCH_PATHS" : [],

@@ -10,6 +10,8 @@ cursach_autogen/timestamp: \
 	D:/QtProjects/cursach/main.cpp \
 	D:/QtProjects/cursach/mainwindow.cpp \
 	D:/QtProjects/cursach/mainwindow.h \
+	D:/QtProjects/cursach/taskselectionwindow.cpp \
+	D:/QtProjects/cursach/taskselectionwindow.h \
 	D:/msys64/mingw64/include/_mingw.h \
 	D:/msys64/mingw64/include/_mingw_mac.h \
 	D:/msys64/mingw64/include/_mingw_off_t.h \
@@ -585,4 +587,5 @@ cursach_autogen/timestamp: \
 	D:/msys64/mingw64/share/cmake/Modules/Platform/WindowsPaths.cmake \
 	D:/QtProjects/cursach/leaderboardwindow.ui \
 	D:/QtProjects/cursach/mainwindow.ui \
+	D:/QtProjects/cursach/taskselectionwindow.ui \
 	D:/msys64/mingw64/bin/cmake.exe

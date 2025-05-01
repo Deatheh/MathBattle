@@ -1,7 +1,5 @@
-D:/QtProjects/cursach/build/Desktop_Qt_shared_MinGW_w64_MINGW64_MSYS2-Debug/cursach_autogen/EWIEGA46WW/moc_mainwindow.cpp: D:/QtProjects/cursach/mainwindow.h \
+D:/QtProjects/cursach/build/Desktop_Qt_shared_MinGW_w64_MINGW64_MSYS2-Debug/cursach_autogen/EWIEGA46WW/moc_taskselectionwindow.cpp: D:/QtProjects/cursach/taskselectionwindow.h \
   D:/QtProjects/cursach/build/Desktop_Qt_shared_MinGW_w64_MINGW64_MSYS2-Debug/cursach_autogen/moc_predefs.h \
-  D:/QtProjects/cursach/leaderboardwindow.h \
-  D:/QtProjects/cursach/taskselectionwindow.h \
   D:/msys64/mingw64/include/_mingw.h \
   D:/msys64/mingw64/include/_mingw_mac.h \
   D:/msys64/mingw64/include/_mingw_off_t.h \
