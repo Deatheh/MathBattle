@@ -2,6 +2,8 @@
 #define LEADERBOARDWINDOW_H
 
 #include <QMainWindow>
+#include <QKeyEvent>
+#include <Qt>
 
 namespace Ui {
 class leaderboardwindow;
@@ -20,6 +22,9 @@ signals:
 
 private:
     Ui::leaderboardwindow *ui;
+
+protected:
+    virtual void  keyPressEvent(QKeyEvent *event);
 };
 
 #endif // LEADERBOARDWINDOW_H

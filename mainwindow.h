@@ -1,3 +1,4 @@
+
 #ifndef MAINWINDOW_H
 #define MAINWINDOW_H
 
@@ -22,7 +23,6 @@ private slots:
 
 private:
     Ui::MainWindow *ui;
-    // второе и третье окна
     leaderboardwindow* lbWindow;
 };
 

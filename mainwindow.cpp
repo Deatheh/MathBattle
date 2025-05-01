@@ -1,3 +1,4 @@
+
 #include "mainwindow.h"
 #include "./ui_mainwindow.h"
 
@@ -20,4 +21,3 @@ void MainWindow::on_pushButton_clicked()
     lbWindow->show();
     this->close();
 }
-

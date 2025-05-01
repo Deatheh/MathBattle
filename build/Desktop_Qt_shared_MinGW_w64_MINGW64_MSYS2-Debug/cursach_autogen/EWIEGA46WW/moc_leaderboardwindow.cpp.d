@@ -189,6 +189,12 @@ D:/QtProjects/cursach/build/Desktop_Qt_shared_MinGW_w64_MINGW64_MSYS2-Debug/curs
   D:/msys64/mingw64/include/pthread_signal.h \
   D:/msys64/mingw64/include/pthread_time.h \
   D:/msys64/mingw64/include/pthread_unistd.h \
+  D:/msys64/mingw64/include/qt6/QtCore/QList \
+  D:/msys64/mingw64/include/qt6/QtCore/QObject \
+  D:/msys64/mingw64/include/qt6/QtCore/QRect \
+  D:/msys64/mingw64/include/qt6/QtCore/QSize \
+  D:/msys64/mingw64/include/qt6/QtCore/QSizeF \
+  D:/msys64/mingw64/include/qt6/QtCore/Qt \
   D:/msys64/mingw64/include/qt6/QtCore/q20functional.h \
   D:/msys64/mingw64/include/qt6/QtCore/q20iterator.h \
   D:/msys64/mingw64/include/qt6/QtCore/q20memory.h \
@@ -219,10 +225,16 @@ D:/QtProjects/cursach/build/Desktop_Qt_shared_MinGW_w64_MINGW64_MSYS2-Debug/curs
   D:/msys64/mingw64/include/qt6/QtCore/qcontainerinfo.h \
   D:/msys64/mingw64/include/qt6/QtCore/qcontainertools_impl.h \
   D:/msys64/mingw64/include/qt6/QtCore/qcontiguouscache.h \
+  D:/msys64/mingw64/include/qt6/QtCore/qcoreapplication.h \
+  D:/msys64/mingw64/include/qt6/QtCore/qcoreapplication_platform.h \
+  D:/msys64/mingw64/include/qt6/QtCore/qcoreevent.h \
   D:/msys64/mingw64/include/qt6/QtCore/qdarwinhelpers.h \
   D:/msys64/mingw64/include/qt6/QtCore/qdatastream.h \
+  D:/msys64/mingw64/include/qt6/QtCore/qdeadlinetimer.h \
   D:/msys64/mingw64/include/qt6/QtCore/qdebug.h \
+  D:/msys64/mingw64/include/qt6/QtCore/qelapsedtimer.h \
   D:/msys64/mingw64/include/qt6/QtCore/qendian.h \
+  D:/msys64/mingw64/include/qt6/QtCore/qeventloop.h \
   D:/msys64/mingw64/include/qt6/QtCore/qexceptionhandling.h \
   D:/msys64/mingw64/include/qt6/QtCore/qflags.h \
   D:/msys64/mingw64/include/qt6/QtCore/qfloat16.h \
@@ -234,12 +246,14 @@ D:/QtProjects/cursach/build/Desktop_Qt_shared_MinGW_w64_MINGW64_MSYS2-Debug/curs
   D:/msys64/mingw64/include/qt6/QtCore/qglobalstatic.h \
   D:/msys64/mingw64/include/qt6/QtCore/qhash.h \
   D:/msys64/mingw64/include/qt6/QtCore/qhashfunctions.h \
+  D:/msys64/mingw64/include/qt6/QtCore/qiodevice.h \
   D:/msys64/mingw64/include/qt6/QtCore/qiodevicebase.h \
   D:/msys64/mingw64/include/qt6/QtCore/qiterable.h \
   D:/msys64/mingw64/include/qt6/QtCore/qiterator.h \
   D:/msys64/mingw64/include/qt6/QtCore/qlatin1stringview.h \
   D:/msys64/mingw64/include/qt6/QtCore/qline.h \
   D:/msys64/mingw64/include/qt6/QtCore/qlist.h \
+  D:/msys64/mingw64/include/qt6/QtCore/qlocale.h \
   D:/msys64/mingw64/include/qt6/QtCore/qlogging.h \
   D:/msys64/mingw64/include/qt6/QtCore/qmalloc.h \
   D:/msys64/mingw64/include/qt6/QtCore/qmap.h \
@@ -249,6 +263,7 @@ D:/QtProjects/cursach/build/Desktop_Qt_shared_MinGW_w64_MINGW64_MSYS2-Debug/curs
   D:/msys64/mingw64/include/qt6/QtCore/qmetatype.h \
   D:/msys64/mingw64/include/qt6/QtCore/qminmax.h \
   D:/msys64/mingw64/include/qt6/QtCore/qnamespace.h \
+  D:/msys64/mingw64/include/qt6/QtCore/qnativeinterface.h \
   D:/msys64/mingw64/include/qt6/QtCore/qnumeric.h \
   D:/msys64/mingw64/include/qt6/QtCore/qobject.h \
   D:/msys64/mingw64/include/qt6/QtCore/qobject_impl.h \
@@ -303,35 +318,49 @@ D:/QtProjects/cursach/build/Desktop_Qt_shared_MinGW_w64_MINGW64_MSYS2-Debug/curs
   D:/msys64/mingw64/include/qt6/QtCore/qtversionchecks.h \
   D:/msys64/mingw64/include/qt6/QtCore/qtypeinfo.h \
   D:/msys64/mingw64/include/qt6/QtCore/qtypes.h \
+  D:/msys64/mingw64/include/qt6/QtCore/qurl.h \
   D:/msys64/mingw64/include/qt6/QtCore/qutf8stringview.h \
   D:/msys64/mingw64/include/qt6/QtCore/qvariant.h \
   D:/msys64/mingw64/include/qt6/QtCore/qvarlengtharray.h \
   D:/msys64/mingw64/include/qt6/QtCore/qversiontagging.h \
   D:/msys64/mingw64/include/qt6/QtCore/qxptype_traits.h \
   D:/msys64/mingw64/include/qt6/QtCore/qyieldcpu.h \
+  D:/msys64/mingw64/include/qt6/QtGui/QKeyEvent \
+  D:/msys64/mingw64/include/qt6/QtGui/QTransform \
   D:/msys64/mingw64/include/qt6/QtGui/qaction.h \
   D:/msys64/mingw64/include/qt6/QtGui/qbitmap.h \
   D:/msys64/mingw64/include/qt6/QtGui/qbrush.h \
   D:/msys64/mingw64/include/qt6/QtGui/qcolor.h \
   D:/msys64/mingw64/include/qt6/QtGui/qcursor.h \
+  D:/msys64/mingw64/include/qt6/QtGui/qevent.h \
+  D:/msys64/mingw64/include/qt6/QtGui/qeventpoint.h \
   D:/msys64/mingw64/include/qt6/QtGui/qfont.h \
   D:/msys64/mingw64/include/qt6/QtGui/qfontinfo.h \
   D:/msys64/mingw64/include/qt6/QtGui/qfontmetrics.h \
+  D:/msys64/mingw64/include/qt6/QtGui/qguiapplication.h \
+  D:/msys64/mingw64/include/qt6/QtGui/qguiapplication_platform.h \
   D:/msys64/mingw64/include/qt6/QtGui/qicon.h \
   D:/msys64/mingw64/include/qt6/QtGui/qimage.h \
+  D:/msys64/mingw64/include/qt6/QtGui/qinputdevice.h \
+  D:/msys64/mingw64/include/qt6/QtGui/qinputmethod.h \
   D:/msys64/mingw64/include/qt6/QtGui/qkeysequence.h \
   D:/msys64/mingw64/include/qt6/QtGui/qpaintdevice.h \
   D:/msys64/mingw64/include/qt6/QtGui/qpalette.h \
   D:/msys64/mingw64/include/qt6/QtGui/qpixelformat.h \
   D:/msys64/mingw64/include/qt6/QtGui/qpixmap.h \
+  D:/msys64/mingw64/include/qt6/QtGui/qpointingdevice.h \
   D:/msys64/mingw64/include/qt6/QtGui/qpolygon.h \
   D:/msys64/mingw64/include/qt6/QtGui/qregion.h \
   D:/msys64/mingw64/include/qt6/QtGui/qrgb.h \
   D:/msys64/mingw64/include/qt6/QtGui/qrgba64.h \
+  D:/msys64/mingw64/include/qt6/QtGui/qscreen.h \
+  D:/msys64/mingw64/include/qt6/QtGui/qscreen_platform.h \
   D:/msys64/mingw64/include/qt6/QtGui/qtgui-config.h \
   D:/msys64/mingw64/include/qt6/QtGui/qtguiexports.h \
   D:/msys64/mingw64/include/qt6/QtGui/qtguiglobal.h \
   D:/msys64/mingw64/include/qt6/QtGui/qtransform.h \
+  D:/msys64/mingw64/include/qt6/QtGui/qvector2d.h \
+  D:/msys64/mingw64/include/qt6/QtGui/qvectornd.h \
   D:/msys64/mingw64/include/qt6/QtGui/qwindowdefs.h \
   D:/msys64/mingw64/include/qt6/QtGui/qwindowdefs_win.h \
   D:/msys64/mingw64/include/qt6/QtWidgets/QMainWindow \

@@ -12,3 +12,10 @@ leaderboardwindow::~leaderboardwindow()
 {
     delete ui;
 }
+
+void leaderboardwindow::keyPressEvent(QKeyEvent *event){
+    if (event->key()==Qt::Key_Escape) {
+        this->close();
+        emit firstWindow();
+    }
+}
