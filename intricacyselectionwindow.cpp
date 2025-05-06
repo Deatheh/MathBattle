@@ -46,5 +46,6 @@ void intricacyselectionwindow::on_pushButton_2_clicked()
 void intricacyselectionwindow::nextWindow()
 {
     gWindow->show();
+    gWindow->timer.start();
     this->close();
 }

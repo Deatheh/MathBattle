@@ -1,5 +1,6 @@
 D:/QtProjects/cursach/build/Desktop_Qt_shared_MinGW_w64_MINGW64_MSYS2-Debug/cursach_autogen/EWIEGA46WW/moc_gamewindow.cpp: D:/QtProjects/cursach/gamewindow.h \
   D:/QtProjects/cursach/build/Desktop_Qt_shared_MinGW_w64_MINGW64_MSYS2-Debug/cursach_autogen/moc_predefs.h \
+  D:/QtProjects/cursach/scorewindow.h \
   D:/msys64/mingw64/include/_mingw.h \
   D:/msys64/mingw64/include/_mingw_mac.h \
   D:/msys64/mingw64/include/_mingw_off_t.h \
@@ -57,6 +58,8 @@ D:/QtProjects/cursach/build/Desktop_Qt_shared_MinGW_w64_MINGW64_MSYS2-Debug/curs
   D:/msys64/mingw64/include/c++/14.2.0/bits/postypes.h \
   D:/msys64/mingw64/include/c++/14.2.0/bits/predefined_ops.h \
   D:/msys64/mingw64/include/c++/14.2.0/bits/ptr_traits.h \
+  D:/msys64/mingw64/include/c++/14.2.0/bits/random.h \
+  D:/msys64/mingw64/include/c++/14.2.0/bits/random.tcc \
   D:/msys64/mingw64/include/c++/14.2.0/bits/range_access.h \
   D:/msys64/mingw64/include/c++/14.2.0/bits/refwrap.h \
   D:/msys64/mingw64/include/c++/14.2.0/bits/requires_hosted.h \
@@ -125,6 +128,7 @@ D:/QtProjects/cursach/build/Desktop_Qt_shared_MinGW_w64_MINGW64_MSYS2-Debug/curs
   D:/msys64/mingw64/include/c++/14.2.0/ext/numeric_traits.h \
   D:/msys64/mingw64/include/c++/14.2.0/ext/string_conversions.h \
   D:/msys64/mingw64/include/c++/14.2.0/ext/type_traits.h \
+  D:/msys64/mingw64/include/c++/14.2.0/filesystem \
   D:/msys64/mingw64/include/c++/14.2.0/functional \
   D:/msys64/mingw64/include/c++/14.2.0/initializer_list \
   D:/msys64/mingw64/include/c++/14.2.0/iosfwd \
@@ -138,6 +142,7 @@ D:/QtProjects/cursach/build/Desktop_Qt_shared_MinGW_w64_MINGW64_MSYS2-Debug/curs
   D:/msys64/mingw64/include/c++/14.2.0/optional \
   D:/msys64/mingw64/include/c++/14.2.0/pstl/execution_defs.h \
   D:/msys64/mingw64/include/c++/14.2.0/pstl/glue_numeric_defs.h \
+  D:/msys64/mingw64/include/c++/14.2.0/random \
   D:/msys64/mingw64/include/c++/14.2.0/ratio \
   D:/msys64/mingw64/include/c++/14.2.0/stdexcept \
   D:/msys64/mingw64/include/c++/14.2.0/streambuf \
@@ -171,6 +176,7 @@ D:/QtProjects/cursach/build/Desktop_Qt_shared_MinGW_w64_MINGW64_MSYS2-Debug/curs
   D:/msys64/mingw64/include/c++/14.2.0/x86_64-w64-mingw32/bits/error_constants.h \
   D:/msys64/mingw64/include/c++/14.2.0/x86_64-w64-mingw32/bits/gthr-default.h \
   D:/msys64/mingw64/include/c++/14.2.0/x86_64-w64-mingw32/bits/gthr.h \
+  D:/msys64/mingw64/include/c++/14.2.0/x86_64-w64-mingw32/bits/opt_random.h \
   D:/msys64/mingw64/include/c++/14.2.0/x86_64-w64-mingw32/bits/os_defines.h \
   D:/msys64/mingw64/include/corecrt.h \
   D:/msys64/mingw64/include/corecrt_startup.h \
@@ -189,6 +195,10 @@ D:/QtProjects/cursach/build/Desktop_Qt_shared_MinGW_w64_MINGW64_MSYS2-Debug/curs
   D:/msys64/mingw64/include/pthread_signal.h \
   D:/msys64/mingw64/include/pthread_time.h \
   D:/msys64/mingw64/include/pthread_unistd.h \
+  D:/msys64/mingw64/include/qt6/QtCore/QDebug \
+  D:/msys64/mingw64/include/qt6/QtCore/QFile \
+  D:/msys64/mingw64/include/qt6/QtCore/QRandomGenerator \
+  D:/msys64/mingw64/include/qt6/QtCore/QTimer \
   D:/msys64/mingw64/include/qt6/QtCore/q20functional.h \
   D:/msys64/mingw64/include/qt6/QtCore/q20iterator.h \
   D:/msys64/mingw64/include/qt6/QtCore/q20memory.h \
@@ -203,6 +213,7 @@ D:/QtProjects/cursach/build/Desktop_Qt_shared_MinGW_w64_MINGW64_MSYS2-Debug/curs
   D:/msys64/mingw64/include/qt6/QtCore/qatomic.h \
   D:/msys64/mingw64/include/qt6/QtCore/qatomic_cxx11.h \
   D:/msys64/mingw64/include/qt6/QtCore/qbasicatomic.h \
+  D:/msys64/mingw64/include/qt6/QtCore/qbasictimer.h \
   D:/msys64/mingw64/include/qt6/QtCore/qbindingstorage.h \
   D:/msys64/mingw64/include/qt6/QtCore/qbytearray.h \
   D:/msys64/mingw64/include/qt6/QtCore/qbytearrayalgorithms.h \
@@ -224,6 +235,8 @@ D:/QtProjects/cursach/build/Desktop_Qt_shared_MinGW_w64_MINGW64_MSYS2-Debug/curs
   D:/msys64/mingw64/include/qt6/QtCore/qdebug.h \
   D:/msys64/mingw64/include/qt6/QtCore/qendian.h \
   D:/msys64/mingw64/include/qt6/QtCore/qexceptionhandling.h \
+  D:/msys64/mingw64/include/qt6/QtCore/qfile.h \
+  D:/msys64/mingw64/include/qt6/QtCore/qfiledevice.h \
   D:/msys64/mingw64/include/qt6/QtCore/qflags.h \
   D:/msys64/mingw64/include/qt6/QtCore/qfloat16.h \
   D:/msys64/mingw64/include/qt6/QtCore/qforeach.h \
@@ -234,6 +247,7 @@ D:/QtProjects/cursach/build/Desktop_Qt_shared_MinGW_w64_MINGW64_MSYS2-Debug/curs
   D:/msys64/mingw64/include/qt6/QtCore/qglobalstatic.h \
   D:/msys64/mingw64/include/qt6/QtCore/qhash.h \
   D:/msys64/mingw64/include/qt6/QtCore/qhashfunctions.h \
+  D:/msys64/mingw64/include/qt6/QtCore/qiodevice.h \
   D:/msys64/mingw64/include/qt6/QtCore/qiodevicebase.h \
   D:/msys64/mingw64/include/qt6/QtCore/qiterable.h \
   D:/msys64/mingw64/include/qt6/QtCore/qiterator.h \
@@ -258,6 +272,7 @@ D:/QtProjects/cursach/build/Desktop_Qt_shared_MinGW_w64_MINGW64_MSYS2-Debug/curs
   D:/msys64/mingw64/include/qt6/QtCore/qpair.h \
   D:/msys64/mingw64/include/qt6/QtCore/qpoint.h \
   D:/msys64/mingw64/include/qt6/QtCore/qprocessordetection.h \
+  D:/msys64/mingw64/include/qt6/QtCore/qrandom.h \
   D:/msys64/mingw64/include/qt6/QtCore/qrect.h \
   D:/msys64/mingw64/include/qt6/QtCore/qrefcount.h \
   D:/msys64/mingw64/include/qt6/QtCore/qscopedpointer.h \
@@ -293,6 +308,7 @@ D:/QtProjects/cursach/build/Desktop_Qt_shared_MinGW_w64_MINGW64_MSYS2-Debug/curs
   D:/msys64/mingw64/include/qt6/QtCore/qtdeprecationmarkers.h \
   D:/msys64/mingw64/include/qt6/QtCore/qtenvironmentvariables.h \
   D:/msys64/mingw64/include/qt6/QtCore/qtextstream.h \
+  D:/msys64/mingw64/include/qt6/QtCore/qtimer.h \
   D:/msys64/mingw64/include/qt6/QtCore/qtmetamacros.h \
   D:/msys64/mingw64/include/qt6/QtCore/qtnoop.h \
   D:/msys64/mingw64/include/qt6/QtCore/qtpreprocessorsupport.h \
@@ -303,6 +319,7 @@ D:/QtProjects/cursach/build/Desktop_Qt_shared_MinGW_w64_MINGW64_MSYS2-Debug/curs
   D:/msys64/mingw64/include/qt6/QtCore/qtversionchecks.h \
   D:/msys64/mingw64/include/qt6/QtCore/qtypeinfo.h \
   D:/msys64/mingw64/include/qt6/QtCore/qtypes.h \
+  D:/msys64/mingw64/include/qt6/QtCore/qurl.h \
   D:/msys64/mingw64/include/qt6/QtCore/qutf8stringview.h \
   D:/msys64/mingw64/include/qt6/QtCore/qvariant.h \
   D:/msys64/mingw64/include/qt6/QtCore/qvarlengtharray.h \
@@ -322,19 +339,24 @@ D:/QtProjects/cursach/build/Desktop_Qt_shared_MinGW_w64_MINGW64_MSYS2-Debug/curs
   D:/msys64/mingw64/include/qt6/QtGui/qkeysequence.h \
   D:/msys64/mingw64/include/qt6/QtGui/qpaintdevice.h \
   D:/msys64/mingw64/include/qt6/QtGui/qpalette.h \
+  D:/msys64/mingw64/include/qt6/QtGui/qpicture.h \
   D:/msys64/mingw64/include/qt6/QtGui/qpixelformat.h \
   D:/msys64/mingw64/include/qt6/QtGui/qpixmap.h \
   D:/msys64/mingw64/include/qt6/QtGui/qpolygon.h \
   D:/msys64/mingw64/include/qt6/QtGui/qregion.h \
   D:/msys64/mingw64/include/qt6/QtGui/qrgb.h \
   D:/msys64/mingw64/include/qt6/QtGui/qrgba64.h \
+  D:/msys64/mingw64/include/qt6/QtGui/qtextdocument.h \
   D:/msys64/mingw64/include/qt6/QtGui/qtgui-config.h \
   D:/msys64/mingw64/include/qt6/QtGui/qtguiexports.h \
   D:/msys64/mingw64/include/qt6/QtGui/qtguiglobal.h \
   D:/msys64/mingw64/include/qt6/QtGui/qtransform.h \
   D:/msys64/mingw64/include/qt6/QtGui/qwindowdefs.h \
   D:/msys64/mingw64/include/qt6/QtGui/qwindowdefs_win.h \
+  D:/msys64/mingw64/include/qt6/QtWidgets/QLabel \
   D:/msys64/mingw64/include/qt6/QtWidgets/QMainWindow \
+  D:/msys64/mingw64/include/qt6/QtWidgets/qframe.h \
+  D:/msys64/mingw64/include/qt6/QtWidgets/qlabel.h \
   D:/msys64/mingw64/include/qt6/QtWidgets/qmainwindow.h \
   D:/msys64/mingw64/include/qt6/QtWidgets/qsizepolicy.h \
   D:/msys64/mingw64/include/qt6/QtWidgets/qtabwidget.h \
@@ -362,5 +384,10 @@ D:/QtProjects/cursach/build/Desktop_Qt_shared_MinGW_w64_MINGW64_MSYS2-Debug/curs
   D:/msys64/mingw64/include/time.h \
   D:/msys64/mingw64/include/vadefs.h \
   D:/msys64/mingw64/include/wchar.h \
+  D:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/emmintrin.h \
   D:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/mm_malloc.h \
-  D:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/stdbool.h
+  D:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/mmintrin.h \
+  D:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/mwaitintrin.h \
+  D:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/pmmintrin.h \
+  D:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/stdbool.h \
+  D:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/xmmintrin.h

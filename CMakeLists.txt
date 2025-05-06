@@ -30,6 +30,7 @@ if(${QT_VERSION_MAJOR} GREATER_EQUAL 6)
 
         intricacyselectionwindow.h intricacyselectionwindow.cpp intricacyselectionwindow.ui
         gamewindow.h gamewindow.cpp gamewindow.ui
+        scorewindow.h scorewindow.cpp scorewindow.ui
 
 
 

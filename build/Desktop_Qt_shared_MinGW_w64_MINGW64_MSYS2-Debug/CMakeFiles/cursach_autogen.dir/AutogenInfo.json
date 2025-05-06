@@ -324,6 +324,12 @@
 			null
 		],
 		[
+			"D:/QtProjects/cursach/scorewindow.h",
+			"MU",
+			"EWIEGA46WW/moc_scorewindow.cpp",
+			null
+		],
+		[
 			"D:/QtProjects/cursach/taskselectionwindow.h",
 			"MU",
 			"EWIEGA46WW/moc_taskselectionwindow.cpp",
@@ -408,6 +414,7 @@
 		[ "D:/QtProjects/cursach/leaderboardwindow.cpp", "MU", null ],
 		[ "D:/QtProjects/cursach/main.cpp", "MU", null ],
 		[ "D:/QtProjects/cursach/mainwindow.cpp", "MU", null ],
+		[ "D:/QtProjects/cursach/scorewindow.cpp", "MU", null ],
 		[ "D:/QtProjects/cursach/taskselectionwindow.cpp", "MU", null ]
 	],
 	"UIC_OPTIONS" : [],

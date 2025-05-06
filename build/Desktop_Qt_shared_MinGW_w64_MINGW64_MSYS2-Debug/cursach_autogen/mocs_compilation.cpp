@@ -3,4 +3,5 @@
 #include "EWIEGA46WW/moc_intricacyselectionwindow.cpp"
 #include "EWIEGA46WW/moc_leaderboardwindow.cpp"
 #include "EWIEGA46WW/moc_mainwindow.cpp"
+#include "EWIEGA46WW/moc_scorewindow.cpp"
 #include "EWIEGA46WW/moc_taskselectionwindow.cpp"

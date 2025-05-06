@@ -4,6 +4,7 @@
 #include <QMainWindow>
 #include <QKeyEvent>
 #include <Qt>
+#include <QFile>
 
 namespace Ui {
 class leaderboardwindow;
@@ -22,7 +23,6 @@ signals:
 
 private:
     Ui::leaderboardwindow *ui;
-
 protected:
     virtual void  keyPressEvent(QKeyEvent *event);
 };

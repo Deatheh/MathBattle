@@ -12,8 +12,10 @@
 #include <QtCore/QVariant>
 #include <QtWidgets/QApplication>
 #include <QtWidgets/QLabel>
+#include <QtWidgets/QLineEdit>
 #include <QtWidgets/QMainWindow>
 #include <QtWidgets/QMenuBar>
+#include <QtWidgets/QPushButton>
 #include <QtWidgets/QStatusBar>
 #include <QtWidgets/QWidget>
 
@@ -24,6 +26,8 @@ class Ui_gamewindow
 public:
     QWidget *centralwidget;
     QLabel *label;
+    QLineEdit *lineEdit;
+    QPushButton *pushButton;
     QMenuBar *menubar;
     QStatusBar *statusbar;
 
@@ -36,7 +40,21 @@ public:
         centralwidget->setObjectName("centralwidget");
         label = new QLabel(centralwidget);
         label->setObjectName("label");
-        label->setGeometry(QRect(380, 20, 37, 12));
+        label->setGeometry(QRect(6, 20, 791, 51));
+        QFont font;
+        font.setPointSize(18);
+        label->setFont(font);
+        label->setAlignment(Qt::AlignCenter);
+        lineEdit = new QLineEdit(centralwidget);
+        lineEdit->setObjectName("lineEdit");
+        lineEdit->setGeometry(QRect(270, 259, 261, 41));
+        QFont font1;
+        font1.setPointSize(14);
+        lineEdit->setFont(font1);
+        pushButton = new QPushButton(centralwidget);
+        pushButton->setObjectName("pushButton");
+        pushButton->setGeometry(QRect(270, 340, 261, 41));
+        pushButton->setFont(font1);
         gamewindow->setCentralWidget(centralwidget);
         menubar = new QMenuBar(gamewindow);
         menubar->setObjectName("menubar");
@@ -55,6 +73,7 @@ public:
     {
         gamewindow->setWindowTitle(QCoreApplication::translate("gamewindow", "MainWindow", nullptr));
         label->setText(QCoreApplication::translate("gamewindow", "Game", nullptr));
+        pushButton->setText(QCoreApplication::translate("gamewindow", "\320\236\321\202\320\277\321\200\320\260\320\262\320\270\321\202\321\214", nullptr));
     } // retranslateUi
 
 };
